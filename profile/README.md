@@ -8,6 +8,7 @@ This document is not set in stone, and we will update it according to our experi
 
 * Backward Compatibility:
   This is the most important value to Kbrw. Unless Elixir, Erlang, or Javascript brings an incompatible change, we strive as much as possible to keep our libraries stable, and backward compatible.
+  Libraries MUST NOT break with elixir 1.10 and erlang 23 at the minimum.
 * Auditability:
   Regarding the library life-cycle, this means that we want to be able to follow the changes that happened through the git history. This has a few implications on what kind of change we accept or refuse, and how we want these changes to take form.
 
